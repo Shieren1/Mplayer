@@ -1,0 +1,103 @@
+body {
+    background-color: #121212;
+    color: #FFFFFF;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+.container {
+    background-color: #181818;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    color: #1DB954; 
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+#audioPlayer {
+    width: 100%;
+    margin: 20px 0;
+    background-color: #333333;
+    border-radius: 5px;
+}
+
+#audioPlayer::-webkit-media-controls-panel {
+    background-color: #333333;
+    color: #FFFFFF;
+}
+
+.list-group-item {
+    background-color: #181818;
+    border: none;
+    color: #FFFFFF;
+}
+
+.list-group-item:hover {
+    background-color: #282828;
+}
+
+.playBtn {
+    background-color: #1DB954;
+    color: #FFFFFF;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.playBtn:hover {
+    background-color: #1ED760;
+}
+
+.controls button {
+    background-color: #1DB954;
+    border: none;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin: 0 10px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.controls button:hover {
+    background-color: #1ED760;
+}
+
+#playBtn {
+    background-color: #FFFFFF;
+    color: #1DB954;
+}
+
+#playBtn:hover {
+    background-color: #F1F1F1;
+    color: #1ED760;
+}
+
+a.btn-primary {
+    background-color: #1DB954;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+}
+
+a.btn-primary:hover {
+    background-color: #1ED760;
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .controls button {
+        padding: 8px 15px;
+        font-size: 0.9rem;
+    }
+}
